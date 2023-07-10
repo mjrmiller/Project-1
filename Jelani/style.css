@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Comorant;
+    src: url("Cormorant/static/Cormorant-Medium.ttf");
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #8e9d2e;
+    text-align: center;
+}
+H1 {
+    color: #3d010b;
+    font-family: 'birthstone bounce', cursive;
+    font-size: 56px;
+    margin: 0px auto 5px;
+    padding: 2px;
+}
+a[href] {
+    color: #3d010b;
+}
+
+.navigation {
+    margin: 10px;
+    border-bottom: 1px dashed #3d010b;
+}
+nav ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Comorant;
+    font-size: 36px;
+    padding: 10px;
+
+}
+
+a:hover {
+    color: #182009;
+    text-decoration: underline;
+}
+
+
+.main {
+    margin-left: 10px;
+    background-color: #8e9d2e;
+    background-image: url(northamerica.jpeg);
+    aspect-ratio: 1;
+    background-position: left;
+    background-size: contain;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+.main a {
+    color: #182009;
+}
+.main a:hover {
+    color: #3d010b;
+}
+
+H2{
+    color: #3d010b;
+    font-family: 'birthstone bounce';
+    font-size: 30px;
+
+
+
+}
+p {
+    color: #182009;
+    font-family: comorant;
+    font-size: 18px;
+    text-align: center;
+ 
+    
+    
+}
+
+footer a {
+   
+}
+footer a {
+ 
+}
